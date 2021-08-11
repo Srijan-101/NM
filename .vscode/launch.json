@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Gaussjacobi",
+            "request": "launch",
+            "mainClass": "Gaussjacobi",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RK",
+            "request": "launch",
+            "mainClass": "RK",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch GaussForward",
+            "request": "launch",
+            "mainClass": "GaussForward",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LagranY",
+            "request": "launch",
+            "mainClass": "LagranY",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NRdivided",
+            "request": "launch",
+            "mainClass": "NRdivided",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LagranUn",
+            "request": "launch",
+            "mainClass": "LagranUn",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Expo",
+            "request": "launch",
+            "mainClass": "Expo",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch GaussSeidel",
+            "request": "launch",
+            "mainClass": "GaussSeidel",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NRbackward",
+            "request": "launch",
+            "mainClass": "NRbackward",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NRforward",
+            "request": "launch",
+            "mainClass": "NRforward",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}",
+                "classes"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "/${fileDirname}/classes"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch NR",
+            "request": "launch",
+            "mainClass": "NR",
+            "projectName": "NumericalExamPrograms_7dbed59b"
+        }
+    ]
+}

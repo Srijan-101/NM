@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "chapter-3",
+        "CurverFitting",
+        "Chapter-2",
+        "Chapter-1/classes",
+        "Chapter-1",
+        "PDE"
+    ]
+}
